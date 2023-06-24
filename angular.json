@@ -3,5 +3,37 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-  }
+    "ng-calendar-schedule": {
+      "projectType": "library",
+      "root": "projects/ng-calendar-schedule",
+      "sourceRoot": "projects/ng-calendar-schedule/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/ng-calendar-schedule/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ng-calendar-schedule/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/ng-calendar-schedule/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ng-calendar-schedule/src/test.ts",
+            "tsConfig": "projects/ng-calendar-schedule/tsconfig.spec.json",
+            "karmaConfig": "projects/ng-calendar-schedule/karma.conf.js"
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "ng-calendar-schedule"
 }
