@@ -11,5 +11,8 @@
     "calendar-utils",
     "positioning",
     "date-fns"
-  ]
+  ],
+  "assets": [
+    "./assets"
+]
 }

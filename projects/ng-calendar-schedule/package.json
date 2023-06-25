@@ -16,9 +16,6 @@
   "exports": {
     "./lib/date-adapters/date-adapter": "./esm2020/lib/date-adapters/date-adapter.mjs",
     "./lib/date-adapters/date-fns": "./esm2020/lib/date-adapters/date-fns/index.mjs",
-    "./lib/date-adapters/moment": "./esm2020/lib/date-adapters/moment/index.mjs",
-    "./scss/*": {
-      "sass": "./scss/*"
-    }
+    "./lib/date-adapters/moment": "./esm2020/lib/date-adapters/moment/index.mjs"
   }
 }
