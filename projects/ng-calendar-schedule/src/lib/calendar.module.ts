@@ -9,11 +9,13 @@ import {
   CalendarDateFormatter,
   CalendarA11y,
  } from './common/calendar-common.module';
- import { CalendarUtils } from './common/calendar-utils/calendar-utils.provider';
+import { CalendarUtils } from './common/calendar-utils/calendar-utils.provider';
+import { CalendarComponent } from './calendar.component';
 
 
 @NgModule({
   declarations: [
+    CalendarComponent
   ],
   imports: [
     CalendarMonthModule,
@@ -22,6 +24,7 @@ import {
     CalendarCommonModule
   ],
   exports: [
+    CalendarComponent,
     CalendarMonthModule,
     CalendarWeekModule,
     CalendarDayModule,

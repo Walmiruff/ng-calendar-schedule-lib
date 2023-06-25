@@ -599,7 +599,7 @@ export class CalendarWeekViewComponent
    * Customise the document cursor when dragging to resize an event
    */
   @Input() resizeCursors: Partial<
-    Pick<ResizeCursors, 'leftOrRight' | 'topOrBottom'>
+    Pick<any, 'leftOrRight' | 'topOrBottom'>
   >;
 
   /**

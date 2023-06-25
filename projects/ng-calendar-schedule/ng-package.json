@@ -3,5 +3,13 @@
   "dest": "../../dist/ng-calendar-schedule",
   "lib": {
     "entryFile": "src/public-api.ts"
-  }
+  },
+  "allowedNonPeerDependencies": [
+    "tslib",
+    "angular-draggable-droppable",
+    "angular-resizable-element",
+    "calendar-utils",
+    "positioning",
+    "date-fns"
+  ]
 }
