@@ -8,8 +8,6 @@ https://github.com/Walmiruff/spa-calendar-schedule-demo
 
 </div>
 
-## Table of contents
-
 
 <h2 align="center">About</h2>
 
