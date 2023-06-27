@@ -1,6 +1,7 @@
 {
   "name": "ng-calendar-schedule",
   "version": "1.0.0",
+  "description": "A calendar library for angular 15.0+ that can display events on a month, week or day view",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
